@@ -14,7 +14,7 @@ html {
 /*---------------------------Color*/
 
 .bg-navbar {
-    background-color: #c0c0c0;
+    background-color: transparent;
 }
 
 /*---------------------------Fonts*/
@@ -23,6 +23,14 @@ html {
     font-family: "Cutive Mono", sans-serif;
 }
 
+.navbar-font-size {
+    font-size: 22px;
+}
+
+
+/*----------------------Navbar*/
+
+
 
 
 /* ---------------------Callout Image*/
@@ -30,10 +38,10 @@ html {
 .hero-image {
     background-image: url("../images/fishing-boat.jpg");
     height: 100%;
-    background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
 }
 
 .hero-text {
@@ -59,6 +67,17 @@ html {
 .hero-text button:hover {
     background-color: darkgray;
 }
+
+.hero-text p {
+    font-size: larger
+}
+
+/*----------------------------Gallery*/
+
+.gallery-bg {
+    background-color: black
+}
+
 
 /*----------------------------Footer*/
 
@@ -87,7 +106,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: white;
-    background-color: #8f8f8f;
+    background-color: #949FA6;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -106,14 +125,6 @@ footer {
     padding-bottom: 0;
 }
 
-
 /*-----------------------Media Query*/
 
-@media (min-width: 767px) {
-    .hero-text button {
-        border: solid white;
-        outline: 0;
-        background-color: transparent;
-        color: #fafafa;
-    }
-}
+@media ()
