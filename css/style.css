@@ -129,9 +129,9 @@ footer {
 
 .gallery-container {
     max-height: 50%;
-    width: 60%;
+    width: 65%;
+    padding: 20px 0;
 }
-
 
 
 
@@ -139,9 +139,7 @@ footer {
 /*Gallery Footer*/
 
 .gallery-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
     background-color: transparent;
     color: #fafafa;
     min-height: 120px;
