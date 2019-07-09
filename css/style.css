@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:100,200,300,400,500,600,700|Cutive+Mono:100,200,300,400,500,600,700');
 
+.main-font {
+    font-family: "Cutive Mono", sans-serif;
+}
+
+.navbar-font-size {
+    font-size: 22px;
+}
+
+
 /*--------------------------Body*/
 
 html,
@@ -17,16 +26,6 @@ body {
     background-color: transparent;
 }
 
-/*---------------------------Fonts*/
-
-.main-font {
-    font-family: "Cutive Mono", sans-serif;
-}
-
-.navbar-font-size {
-    font-size: 22px;
-}
-
 
 /*----------------------Navbar*/
 
@@ -35,8 +34,9 @@ body {
     padding-bottom: 15px;
 }
 
+/* ---------------------index.html*/
 
-/* ---------------------Callout Image*/
+/*Callout Image*/
 
 .hero-image {
     background-image: url("../images/fishing-boat.jpg");
@@ -47,8 +47,6 @@ body {
     position: relative;
 
 }
-
-
 
 .hero-text {
     text-align: center;
@@ -78,6 +76,40 @@ body {
     font-size: larger
 }
 
+/*-----------------------gallery.html*/
+
+.gallery-bg {
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: gallery-bg;
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+
+.gallery-container {
+    max-height: 50%;
+    width: 65%;
+    padding: 20px 0;
+}
+
+
+/*Gallery Footer*/
+
+.gallery-footer {
+    position: relative;
+    background-color: transparent;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    font-family: "Cutive Mono", sans-serif
+}
 
 
 /*----------------------------Footer*/
@@ -125,27 +157,6 @@ footer {
     padding-bottom: 0;
 }
 
-/*-----------------------gallery.html*/
-
-.gallery-container {
-    max-height: 50%;
-    width: 65%;
-    padding: 20px 0;
-}
-
-
-
-
-/*Gallery Footer*/
-
-.gallery-footer {
-    position: relative;
-    background-color: transparent;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-    font-family: "Cutive Mono", sans-serif
-}
 
 /*-----------------------Media Query*/
 
@@ -162,7 +173,36 @@ footer {
 
 @media (max-device-width: 1024px) {
     .gallery-container {
-
+        width: 90%;
+    }
+    .gallery-bg {
+        height: 30%;
         width: 100%;
     }
+    
+    
+}
+@media (max-device-width: 765px) {
+    .gallery-bg {
+        height: 30%;
+        width: 100%;
+        background-size: contain;
+    }
+    
+}
+
+
+
+/*------------------Keyframes*/
+
+@keyframes gallery-bg {
+    from {
+        background-image: url("../images/gallery_photos/road.jpg");
+
+    }
+
+    to {
+        background-image: url("../images/gallery_photos/rose.jpg");
+    }
+
 }
