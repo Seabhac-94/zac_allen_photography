@@ -7,9 +7,12 @@
 }
 
 .navbar-font-size {
-    font-size: 22px;
+    font-size: 26px;
 }
 
+.active {
+    font-weight: bolder
+}
 
 /*--------------------------Body*/
 
@@ -25,6 +28,8 @@ body {
 .bg-navbar {
     background-color: transparent;
 }
+
+
 
 
 /*----------------------Navbar*/
@@ -57,12 +62,11 @@ body {
     color: #fafafa;
 }
 
-.hero-text button {
+.hero-text button{
     border: solid white;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: #fafafa;
     background-color: transparent;
     text-align: center;
     cursor: pointer;
@@ -70,17 +74,27 @@ body {
 
 .hero-text button:hover {
     background-color: darkgray;
+    text-decoration: none
+}
+
+.hero-text button a:hover {
+    text-decoration: none
+}
+
+.hero-text button a {
+    color: #fafafa
 }
 
 .hero-text p {
     font-size: larger
 }
 
+
+
 /*-----------------------gallery.html*/
 
 .gallery-bg {
-    height: 80%;
-    width: 100%;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -175,18 +189,10 @@ footer {
     .gallery-container {
         width: 90%;
     }
-    .gallery-bg {
-        height: 30%;
-        width: 100%;
-    }
     
-    
-}
-@media (max-device-width: 765px) {
     .gallery-bg {
-        height: 30%;
-        width: 100%;
-        background-size: contain;
+    
+    height: 35vh
     }
     
 }
@@ -206,3 +212,5 @@ footer {
     }
 
 }
+
+
