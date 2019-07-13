@@ -125,6 +125,12 @@ body {
     font-family: "Cutive Mono", sans-serif
 }
 
+/*----------------------------still-life*/
+
+.col-lg-4 {
+    padding-bottom: 15px
+}
+
 
 /*----------------------------Footer*/
 
@@ -174,7 +180,6 @@ footer {
 
 .btn:hover {
     background-color: #949FA6 ;
-    
     font-weight: bolder
 }
 
