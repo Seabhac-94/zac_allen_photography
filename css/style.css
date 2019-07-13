@@ -172,6 +172,14 @@ footer {
 }
 
 
+.btn:hover {
+    background-color: #949FA6 ;
+    
+    font-weight: bolder
+}
+
+
+
 /*-----------------------Media Query*/
 
 @media only screen and (max-device-width: 719px) and (orientation: landscape) {
