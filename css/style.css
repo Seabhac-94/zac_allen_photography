@@ -102,7 +102,6 @@ body {
     animation-duration: 30s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
 }
 
 
@@ -131,6 +130,9 @@ body {
     background-color: #fafafa;
 }
 
+.gal-padding {
+    padding: 20px 0;
+}
 
 
 /*----------------------------Footer*/
@@ -213,13 +215,11 @@ footer {
 }
 
 
-
 /*------------------Keyframes*/
 
 @keyframes gallery-bg {
     from {
         background-image: url("../images/gallery_photos/road.jpg");
-
     }
 
     to {
