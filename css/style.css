@@ -123,7 +123,7 @@ body {
     font-family: "Cutive Mono", sans-serif
 }
 
-/*----------------------------still-life*/
+/*----------------------------external galleries*/
 
 
 .plain-bg {
@@ -132,6 +132,11 @@ body {
 
 .gal-padding {
     padding: 20px 0;
+}
+
+.heading-padding {
+    
+    padding-bottom: 20px
 }
 
 
