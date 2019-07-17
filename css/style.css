@@ -76,11 +76,11 @@ body {
     text-decoration: none
 }
 
-.hero-text button:hover {
+.hero-text a:hover {
     text-decoration: none
 }
 
-.hero-text button {
+.hero-text a {
     color: #fafafa
 }
 
@@ -139,6 +139,55 @@ body {
     padding-bottom: 20px
 }
 
+/*----------------------------external gallery buttons*/
+
+/*----------------------------still life*/
+
+.btn-waterfall1:hover {
+    background-color: #9D842A  ;
+    font-weight: bolder
+}
+
+.btn-tree:hover {
+    background-color: #D9C6A3 ;
+    font-weight: bolder
+}
+
+.btn-waterfall2:hover {
+    background-color: #8C704D ;
+    font-weight: bolder
+}
+
+.btn-flower:hover {
+    background-color: #D9CCC5 ;
+    font-weight: bolder
+}
+
+.btn-lifebuoy:hover {
+    background-color: #D9583B ;
+    font-weight: bolder
+}
+
+.btn-snail:hover {
+    background-color: #558C03 ;
+    font-weight: bolder
+}
+
+.btn-rose:hover {
+    background-color: #CBABB2 ;
+    font-weight: bolder
+}
+
+.btn-boat:hover {
+    background-color: #BEB3B1 ;
+    font-weight: bolder
+}
+
+.btn-bridge:hover {
+    background-color: #BFB9AE ;
+    font-weight: bolder
+}
+
 
 /*----------------------------contact.html*/
 
@@ -194,10 +243,7 @@ footer {
 }
 
 
-.btn:hover {
-    background-color: #949FA6 ;
-    font-weight: bolder
-}
+
 
 
 
