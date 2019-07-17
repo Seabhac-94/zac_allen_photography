@@ -14,6 +14,8 @@ I decided early on, that my landing page would be a simple hero image and text, 
 Using a little bit of text to describe how I came to be interested in each type of photography, I formed a 3 part gallery page with links to Still Life, Natural Habitat and Landscape galleries.
 ### Contact
 For my contact page, I followed the same format as the gallery page. The contact form code was taken from the "Resume Project-Code Institute" and modified to fit the needs of the page.
+### Further Design Considerations
+I didn't want the background to take away from the main content of the page so I used an off-white color for my background. I feel the main focus should be on the photos themselves and I didn't want backgrounds to take away form the conent.
 ## Technologies
 1. HTML
 2. CSS
