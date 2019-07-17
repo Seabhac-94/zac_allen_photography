@@ -188,6 +188,53 @@ body {
     font-weight: bolder
 }
 
+/*----------------------------natural habitat*/
+
+.btn-horses:hover {
+    background-color: #AE693A ;
+    font-weight: bolder
+}
+
+.btn-dogs:hover {
+    background-color: #C7D1D9 ;
+    font-weight: bolder
+}
+
+.btn-ducks:hover {
+    background-color: #CCD96C ;
+    font-weight: bolder
+}
+
+.btn-sheep-head:hover {
+    background-color: #BFA78A ;
+    font-weight: bolder
+}
+
+.btn-sheep-foot:hover {
+    background-color: #BFA78A ;
+    font-weight: bolder
+}
+
+.btn-sheep3:hover {
+    background-color: #D0C2AB ;
+    font-weight: bolder
+}
+
+.btn-cow1:hover {
+    background-color: #D9D0C7 ;
+    font-weight: bolder
+}
+
+.btn-sheep2:hover {
+    background-color: #D0C2AB ;
+    font-weight: bolder
+}
+
+.btn-dragonfly:hover {
+    background-color: #A8FCFB ;
+    font-weight: bolder
+}
+
 
 /*----------------------------contact.html*/
 
