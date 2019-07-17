@@ -236,6 +236,31 @@ body {
 }
 
 
+/*----------------------------landscape*/
+
+.btn-road:hover {
+    background-color: #8C8C8C;
+    font-weight: bolder
+}
+
+
+.btn-fishing-boat:hover {
+    background-color: #263940;
+    font-weight: bolder;
+    color: #fafafa;
+}
+
+.btn-beach:hover {
+    background-color: #6B9FBF ;
+    font-weight: bolder
+}
+
+.btn-beach2:hover {
+    background-color: #DCA21E;
+    font-weight: bolder
+}
+
+
 /*----------------------------contact.html*/
 
 .btn-pad {
